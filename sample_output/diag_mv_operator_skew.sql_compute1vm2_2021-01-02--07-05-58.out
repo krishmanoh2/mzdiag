@@ -1,0 +1,12 @@
+Starting at 2021-01-02--07-05-58
+ 
+ 
+ 
+Iteration 1   2021-01-02--07-05-58
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            4532 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            6834 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 

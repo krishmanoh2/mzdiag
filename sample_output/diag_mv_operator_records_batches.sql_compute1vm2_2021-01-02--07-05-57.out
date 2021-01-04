@@ -1,0 +1,32 @@
+Starting at 2021-01-02--07-05-57
+ 
+ 
+ 
+Iteration 1   2021-01-02--07-05-57
+ 
+ dataflow_id |                            dataflow_name                             |          operator          | total_records_per_operator | total_batches_per_operator 
+-------------+----------------------------------------------------------------------+----------------------------+----------------------------+----------------------------
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: Distinct          |                    1019617 |                         35
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |                     836194 |                         44
+         712 | Dataflow: materialize.public.idx_v_user_behavior_buy_sub_category_id | Arrange                    |                     448034 |                         21
+         668 | Dataflow: materialize.public.idx_v_user_behavior_buy_item_id         | Arrange                    |                     448006 |                         19
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | ReduceAccumulable          |                     417755 |                         18
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange: ReduceAccumulable |                     417191 |                         17
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange: ReduceAccumulable |                     268088 |                         24
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange                    |                     226623 |                         17
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | ReduceAccumulable          |                     210457 |                         20
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | ReduceAccumulable          |                        709 |                         12
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | Arrange: ReduceAccumulable |                        656 |                         12
+        2271 | Dataflow: materialize.public.tab_112c_v_primary_idx                  | Arrange                    |                        199 |                          4
+        2223 | Dataflow: materialize.public.tab_120c_v_primary_idx                  | Arrange                    |                        105 |                          4
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | ReduceAccumulable          |                         87 |                         11
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | Arrange: ReduceAccumulable |                         74 |                          9
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange                    |                         30 |                          9
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange                    |                          4 |                          6
+        2319 | Dataflow: materialize.public.repl_test_v_primary_idx                 | Arrange                    |                          4 |                          4
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange-errors             |                          2 |                          2
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | ReduceAccumulable          |                          2 |                          4
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: ReduceAccumulable |                          2 |                          4
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | JoinStage: 0               |                          1 |                          2
+
+ 

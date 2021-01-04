@@ -1,0 +1,1372 @@
+Starting at 2021-01-02--10-15-16
+ 
+ 
+ 
+Iteration 1   2021-01-02--10-15-16
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 145033 |                  2143381 |                      162 |               49 |               48 |           49 |           50
+                1 |                 147873 |                  2150459 |                      169 |               50 |               51 |           50 |           50
+
+ 
+Iteration 2   2021-01-02--10-15-27
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 145035 |                  2143381 |                      162 |               49 |               48 |           49 |           50
+                1 |                 147874 |                  2150459 |                      169 |               50 |               51 |           50 |           50
+
+ 
+Iteration 3   2021-01-02--10-15-37
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 145037 |                  2143381 |                      162 |               49 |               48 |           49 |           50
+                1 |                 147876 |                  2150459 |                      169 |               50 |               51 |           50 |           50
+
+ 
+Iteration 4   2021-01-02--10-15-49
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 145038 |                  2143381 |                      162 |               49 |               48 |           49 |           50
+                1 |                 147878 |                  2150459 |                      169 |               50 |               51 |           50 |           50
+
+ 
+Iteration 5   2021-01-02--10-16-01
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 145040 |                  2143381 |                      162 |               49 |               48 |           49 |           50
+                1 |                 147880 |                  2150459 |                      169 |               50 |               51 |           50 |           50
+
+ 
+Iteration 6   2021-01-02--10-16-13
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 145572 |                  2187734 |                      134 |               49 |               48 |           49 |           50
+                1 |                 148400 |                  2190155 |                      145 |               50 |               51 |           50 |           50
+
+ 
+Iteration 7   2021-01-02--10-16-25
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 146053 |                  2203275 |                      150 |               49 |               49 |           49 |           50
+                1 |                 148871 |                  2218216 |                      156 |               50 |               50 |           50 |           50
+
+ 
+Iteration 8   2021-01-02--10-16-37
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 146489 |                  2218670 |                      145 |               50 |               47 |           49 |           50
+                1 |                 149295 |                  2216614 |                      161 |               49 |               52 |           50 |           50
+
+ 
+Iteration 9   2021-01-02--10-16-48
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 146922 |                  2221906 |                      139 |               49 |               48 |           49 |           50
+                1 |                 149701 |                  2233626 |                      150 |               50 |               51 |           50 |           50
+
+ 
+Iteration 10   2021-01-02--10-16-59
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 147300 |                  2225270 |                      148 |               49 |               48 |           49 |           50
+                1 |                 150047 |                  2246031 |                      155 |               50 |               51 |           50 |           50
+
+ 
+Iteration 11   2021-01-02--10-17-10
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 147679 |                  2235236 |                      138 |               49 |               47 |           49 |           50
+                1 |                 150393 |                  2250860 |                      155 |               50 |               52 |           50 |           50
+
+ 
+Iteration 12   2021-01-02--10-17-22
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 148084 |                  2174679 |                      154 |               48 |               49 |           49 |           50
+                1 |                 150801 |                  2268696 |                      157 |               51 |               50 |           50 |           50
+
+ 
+Iteration 13   2021-01-02--10-17-33
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 148440 |                  2198063 |                      144 |               49 |               48 |           49 |           50
+                1 |                 151167 |                  2286695 |                      152 |               50 |               51 |           50 |           50
+
+ 
+Iteration 14   2021-01-02--10-17-44
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 148867 |                  2215290 |                      144 |               48 |               49 |           49 |           50
+                1 |                 151590 |                  2310497 |                      148 |               51 |               50 |           50 |           50
+
+ 
+Iteration 15   2021-01-02--10-17-55
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 149305 |                  2236115 |                      154 |               49 |               49 |           49 |           50
+                1 |                 152087 |                  2312420 |                      160 |               50 |               50 |           50 |           50
+
+ 
+Iteration 16   2021-01-02--10-18-07
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 149785 |                  2259890 |                      151 |               50 |               49 |           49 |           50
+                1 |                 152612 |                  2244411 |                      154 |               49 |               50 |           50 |           50
+
+ 
+Iteration 17   2021-01-02--10-18-18
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 150202 |                  2270520 |                      145 |               50 |               49 |           49 |           50
+                1 |                 153023 |                  2269887 |                      148 |               49 |               50 |           50 |           50
+
+ 
+Iteration 18   2021-01-02--10-18-30
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 150653 |                  2299494 |                      134 |               50 |               46 |           49 |           50
+                1 |                 153457 |                  2290848 |                      152 |               49 |               53 |           50 |           50
+
+ 
+Iteration 19   2021-01-02--10-18-42
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 151134 |                  2317819 |                      143 |               50 |               48 |           49 |           50
+                1 |                 153935 |                  2312641 |                      152 |               49 |               51 |           50 |           50
+
+ 
+Iteration 20   2021-01-02--10-18-54
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 151616 |                  2351490 |                      144 |               50 |               49 |           49 |           50
+                1 |                 154411 |                  2335499 |                      145 |               49 |               50 |           50 |           50
+
+ 
+Iteration 21   2021-01-02--10-19-05
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 152055 |                  2376862 |                      153 |               50 |               50 |           49 |           50
+                1 |                 154814 |                  2354553 |                      150 |               49 |               49 |           50 |           50
+
+ 
+Iteration 22   2021-01-02--10-19-16
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 152577 |                  2385595 |                      140 |               50 |               47 |           49 |           50
+                1 |                 155272 |                  2374474 |                      154 |               49 |               52 |           50 |           50
+
+ 
+Iteration 23   2021-01-02--10-19-28
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 153144 |                  2393904 |                      147 |               49 |               49 |           49 |           50
+                1 |                 155788 |                  2396496 |                      149 |               50 |               50 |           50 |           50
+
+ 
+Iteration 24   2021-01-02--10-19-40
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 153690 |                  2267202 |                      142 |               48 |               48 |           49 |           50
+                1 |                 156338 |                  2425627 |                      150 |               51 |               51 |           50 |           50
+
+ 
+Iteration 25   2021-01-02--10-19-51
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 154178 |                  2219660 |                      138 |               48 |               48 |           49 |           50
+                1 |                 156884 |                  2340309 |                      145 |               51 |               51 |           50 |           50
+
+ 
+Iteration 26   2021-01-02--10-20-03
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 154633 |                  2245984 |                      139 |               49 |               49 |           49 |           50
+                1 |                 157406 |                  2333157 |                      144 |               50 |               50 |           50 |           50
+
+ 
+Iteration 27   2021-01-02--10-20-14
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 155079 |                  2265448 |                      144 |               49 |               49 |           49 |           50
+                1 |                 157875 |                  2351140 |                      145 |               50 |               50 |           50 |           50
+
+ 
+Iteration 28   2021-01-02--10-20-25
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 155523 |                  2280402 |                      147 |               50 |               48 |           49 |           50
+                1 |                 158287 |                  2274405 |                      157 |               49 |               51 |           50 |           50
+
+ 
+Iteration 29   2021-01-02--10-20-36
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 156027 |                  2239831 |                      148 |               49 |               50 |           49 |           50
+                1 |                 158756 |                  2287522 |                      145 |               50 |               49 |           50 |           50
+
+ 
+Iteration 30   2021-01-02--10-20-48
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 156505 |                  2253873 |                      147 |               49 |               50 |           49 |           50
+                1 |                 159221 |                  2311294 |                      145 |               50 |               49 |           50 |           50
+
+ 
+Iteration 31   2021-01-02--10-21-00
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 156938 |                  2272175 |                      140 |               49 |               48 |           49 |           50
+                1 |                 159687 |                  2322472 |                      148 |               50 |               51 |           50 |           50
+
+ 
+Iteration 32   2021-01-02--10-21-11
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 157404 |                  2304520 |                      146 |               49 |               48 |           49 |           50
+                1 |                 160121 |                  2344599 |                      156 |               50 |               51 |           50 |           50
+
+ 
+Iteration 33   2021-01-02--10-21-25
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 158074 |                  2337295 |                      146 |               49 |               49 |           49 |           50
+                1 |                 160723 |                  2348434 |                      150 |               50 |               50 |           50 |           50
+
+ 
+Iteration 34   2021-01-02--10-21-36
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 158580 |                  2261451 |                      139 |               48 |               48 |           49 |           50
+                1 |                 161238 |                  2371416 |                      150 |               51 |               51 |           50 |           50
+
+ 
+Iteration 35   2021-01-02--10-21-47
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 158995 |                  2283680 |                      141 |               48 |               48 |           49 |           50
+                1 |                 161745 |                  2398869 |                      150 |               51 |               51 |           50 |           50
+
+ 
+Iteration 36   2021-01-02--10-21-58
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 159427 |                  2314263 |                      140 |               49 |               48 |           49 |           50
+                1 |                 162261 |                  2351557 |                      146 |               50 |               51 |           50 |           50
+
+ 
+Iteration 37   2021-01-02--10-22-09
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 159892 |                  2336941 |                      135 |               49 |               47 |           49 |           50
+                1 |                 162806 |                  2356102 |                      150 |               50 |               52 |           50 |           50
+
+ 
+Iteration 38   2021-01-02--10-22-20
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 160346 |                  2345529 |                      137 |               50 |               49 |           49 |           50
+                1 |                 163290 |                  2277083 |                      140 |               49 |               50 |           50 |           50
+
+ 
+Iteration 39   2021-01-02--10-22-31
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 160832 |                  2368925 |                      143 |               50 |               49 |           49 |           50
+                1 |                 163764 |                  2291539 |                      145 |               49 |               50 |           50 |           50
+
+ 
+Iteration 40   2021-01-02--10-22-42
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 161309 |                  2399510 |                      226 |               50 |               49 |           49 |           50
+                1 |                 164220 |                  2325284 |                      233 |               49 |               50 |           50 |           50
+
+ 
+Iteration 41   2021-01-02--10-22-54
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 161868 |                  2422404 |                      141 |               50 |               48 |           49 |           50
+                1 |                 164716 |                  2350757 |                      148 |               49 |               51 |           50 |           50
+
+ 
+Iteration 42   2021-01-02--10-23-04
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 162293 |                  2446517 |                      139 |               50 |               47 |           49 |           50
+                1 |                 165140 |                  2355997 |                      153 |               49 |               52 |           50 |           50
+
+ 
+Iteration 43   2021-01-02--10-23-15
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 162764 |                  2463161 |                      138 |               50 |               47 |           49 |           50
+                1 |                 165588 |                  2384625 |                      151 |               49 |               52 |           50 |           50
+
+ 
+Iteration 44   2021-01-02--10-23-25
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 163206 |                  2464464 |                      147 |               50 |               49 |           49 |           50
+                1 |                 166006 |                  2409444 |                      149 |               49 |               50 |           50 |           50
+
+ 
+Iteration 45   2021-01-02--10-23-36
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 163729 |                  2387827 |                      136 |               49 |               48 |           49 |           50
+                1 |                 166497 |                  2428167 |                      142 |               50 |               51 |           50 |           50
+
+ 
+Iteration 46   2021-01-02--10-23-47
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 164213 |                  2404903 |                      141 |               49 |               48 |           49 |           50
+                1 |                 167009 |                  2451779 |                      151 |               50 |               51 |           50 |           50
+
+ 
+Iteration 47   2021-01-02--10-23-58
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 164711 |                  2438547 |                      142 |               49 |               48 |           49 |           50
+                1 |                 167573 |                  2476727 |                      149 |               50 |               51 |           50 |           50
+
+ 
+Iteration 48   2021-01-02--10-24-09
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 165165 |                  2459822 |                      147 |               49 |               49 |           49 |           50
+                1 |                 168091 |                  2473485 |                      151 |               50 |               50 |           50 |           50
+
+ 
+Iteration 49   2021-01-02--10-24-19
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 165604 |                  2466728 |                      147 |               50 |               48 |           49 |           50
+                1 |                 168530 |                  2399448 |                      154 |               49 |               51 |           50 |           50
+
+ 
+Iteration 50   2021-01-02--10-24-30
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 166052 |                  2499693 |                      150 |               50 |               47 |           49 |           50
+                1 |                 168991 |                  2418590 |                      165 |               49 |               52 |           50 |           50
+
+ 
+Iteration 51   2021-01-02--10-24-41
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 166566 |                  2519488 |                      229 |               50 |               49 |           49 |           50
+                1 |                 169489 |                  2442937 |                      233 |               49 |               50 |           50 |           50
+
+ 
+Iteration 52   2021-01-02--10-24-53
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 167061 |                  2533479 |                      145 |               50 |               49 |           49 |           50
+                1 |                 169963 |                  2463573 |                      149 |               49 |               50 |           50 |           50
+
+ 
+Iteration 53   2021-01-02--10-25-04
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 167576 |                  2554892 |                      147 |               50 |               50 |           49 |           50
+                1 |                 170479 |                  2473814 |                      145 |               49 |               49 |           50 |           50
+
+ 
+Iteration 54   2021-01-02--10-25-16
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 168125 |                  2515370 |                      141 |               50 |               48 |           49 |           50
+                1 |                 170993 |                  2435270 |                      152 |               49 |               51 |           50 |           50
+
+ 
+Iteration 55   2021-01-02--10-25-27
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 168635 |                  2519222 |                      141 |               50 |               48 |           49 |           50
+                1 |                 171462 |                  2467596 |                      150 |               49 |               51 |           50 |           50
+
+ 
+Iteration 56   2021-01-02--10-25-38
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 169125 |                  2449882 |                      154 |               49 |               51 |           49 |           50
+                1 |                 171942 |                  2487683 |                      147 |               50 |               48 |           50 |           50
+
+ 
+Iteration 57   2021-01-02--10-25-49
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 169615 |                  2467013 |                      137 |               49 |               47 |           49 |           50
+                1 |                 172440 |                  2511749 |                      151 |               50 |               52 |           50 |           50
+
+ 
+Iteration 58   2021-01-02--10-26-00
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 170088 |                  2427875 |                      147 |               49 |               48 |           49 |           50
+                1 |                 172943 |                  2476390 |                      154 |               50 |               51 |           50 |           50
+
+ 
+Iteration 59   2021-01-02--10-26-11
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 170277 |                  2443373 |                      156 |               49 |               48 |           49 |           50
+                1 |                 173175 |                  2474917 |                      169 |               50 |               52 |           50 |           50
+
+ 
+Iteration 60   2021-01-02--10-26-22
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 170989 |                  2479182 |                      141 |               50 |               50 |           49 |           50
+                1 |                 173885 |                  2407254 |                      140 |               49 |               49 |           50 |           50
+
+ 
+Iteration 61   2021-01-02--10-26-34
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 171625 |                  2519928 |                      145 |               50 |               49 |           49 |           50
+                1 |                 174520 |                  2442862 |                      148 |               49 |               50 |           50 |           50
+
+ 
+Iteration 62   2021-01-02--10-26-46
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 172182 |                  2535211 |                      145 |               50 |               49 |           49 |           50
+                1 |                 175113 |                  2464362 |                      148 |               49 |               50 |           50 |           50
+
+ 
+Iteration 63   2021-01-02--10-26-58
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 172799 |                  2567105 |                      149 |               50 |               49 |           49 |           50
+                1 |                 175761 |                  2487641 |                      152 |               49 |               50 |           50 |           50
+
+ 
+Iteration 64   2021-01-02--10-27-09
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 173579 |                  2590411 |                      145 |               50 |               48 |           49 |           50
+                1 |                 176432 |                  2534233 |                      152 |               49 |               51 |           50 |           50
+
+ 
+Iteration 65   2021-01-02--10-27-21
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 174330 |                  2521659 |                      138 |               49 |               48 |           49 |           50
+                1 |                 177169 |                  2572246 |                      147 |               50 |               51 |           50 |           50
+
+ 
+Iteration 66   2021-01-02--10-27-32
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 175122 |                  2578468 |                      142 |               49 |               48 |           49 |           50
+                1 |                 178093 |                  2602016 |                      149 |               50 |               51 |           50 |           50
+
+ 
+Iteration 67   2021-01-02--10-27-44
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 175962 |                  2617100 |                      142 |               50 |               48 |           49 |           50
+                1 |                 178898 |                  2546339 |                      151 |               49 |               51 |           50 |           50
+
+ 
+Iteration 68   2021-01-02--10-27-56
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 176785 |                  2599207 |                      134 |               49 |               47 |           49 |           50
+                1 |                 179712 |                  2600665 |                      148 |               50 |               52 |           50 |           50
+
+ 
+Iteration 69   2021-01-02--10-28-08
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 177536 |                  2661452 |                      144 |               50 |               49 |           49 |           50
+                1 |                 180477 |                  2644456 |                      149 |               49 |               50 |           50 |           50
+
+ 
+Iteration 70   2021-01-02--10-28-20
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 178455 |                  2569277 |                      140 |               48 |               49 |           49 |           50
+                1 |                 181312 |                  2686154 |                      145 |               51 |               50 |           50 |           50
+
+ 
+Iteration 71   2021-01-02--10-28-32
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 179208 |                  2562754 |                      133 |               48 |               46 |           49 |           50
+                1 |                 182078 |                  2692096 |                      153 |               51 |               53 |           50 |           50
+
+ 
+Iteration 72   2021-01-02--10-28-44
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 180021 |                  2550047 |                      138 |               49 |               49 |           49 |           50
+                1 |                 182985 |                  2552226 |                      142 |               50 |               50 |           50 |           50
+
+ 
+Iteration 73   2021-01-02--10-28-57
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 180876 |                  2559010 |                      139 |               50 |               48 |           49 |           50
+                1 |                 183798 |                  2556465 |                      145 |               49 |               51 |           50 |           50
+
+ 
+Iteration 74   2021-01-02--10-29-08
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 181576 |                  2601534 |                      132 |               50 |               47 |           49 |           50
+                1 |                 184472 |                  2588789 |                      144 |               49 |               52 |           50 |           50
+
+ 
+Iteration 75   2021-01-02--10-29-19
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 182406 |                  2627481 |                      132 |               49 |               47 |           49 |           50
+                1 |                 185201 |                  2649542 |                      144 |               50 |               52 |           50 |           50
+
+ 
+Iteration 76   2021-01-02--10-29-30
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 183143 |                  2560815 |                      141 |               48 |               48 |           49 |           50
+                1 |                 185964 |                  2692545 |                      149 |               51 |               51 |           50 |           50
+
+ 
+Iteration 77   2021-01-02--10-29-42
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 183834 |                  2608533 |                      144 |               49 |               49 |           49 |           50
+                1 |                 186752 |                  2702660 |                      147 |               50 |               50 |           50 |           50
+
+ 
+Iteration 78   2021-01-02--10-29-54
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 184668 |                  2654150 |                      135 |               50 |               48 |           49 |           50
+                1 |                 187578 |                  2651217 |                      145 |               49 |               51 |           50 |           50
+
+ 
+Iteration 79   2021-01-02--10-30-05
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 185393 |                  2706850 |                      134 |               49 |               47 |           49 |           50
+                1 |                 188287 |                  2711879 |                      150 |               50 |               52 |           50 |           50
+
+ 
+Iteration 80   2021-01-02--10-30-17
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 186168 |                  2761191 |                      137 |               50 |               47 |           49 |           50
+                1 |                 189069 |                  2725446 |                      149 |               49 |               52 |           50 |           50
+
+ 
+Iteration 81   2021-01-02--10-30-28
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 186927 |                  2669263 |                      138 |               49 |               48 |           49 |           50
+                1 |                 189766 |                  2767192 |                      144 |               50 |               51 |           50 |           50
+
+ 
+Iteration 82   2021-01-02--10-30-40
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 187614 |                  2711392 |                      142 |               49 |               48 |           49 |           50
+                1 |                 190471 |                  2816438 |                      153 |               50 |               51 |           50 |           50
+
+ 
+Iteration 83   2021-01-02--10-30-52
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 188466 |                  2759318 |                      142 |               50 |               48 |           49 |           50
+                1 |                 191446 |                  2744194 |                      152 |               49 |               51 |           50 |           50
+
+ 
+Iteration 84   2021-01-02--10-31-04
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 189154 |                  2801004 |                      145 |               50 |               49 |           49 |           50
+                1 |                 192121 |                  2776750 |                      146 |               49 |               50 |           50 |           50
+
+ 
+Iteration 85   2021-01-02--10-31-16
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 189893 |                  2849691 |                      146 |               50 |               50 |           49 |           50
+                1 |                 192839 |                  2768012 |                      145 |               49 |               49 |           50 |           50
+
+ 
+Iteration 86   2021-01-02--10-31-28
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 190857 |                  2815536 |                      143 |               50 |               48 |           49 |           50
+                1 |                 193689 |                  2767510 |                      153 |               49 |               51 |           50 |           50
+
+ 
+Iteration 87   2021-01-02--10-31-40
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 191517 |                  2747104 |                      138 |               49 |               49 |           49 |           50
+                1 |                 194379 |                  2803745 |                      142 |               50 |               50 |           50 |           50
+
+ 
+Iteration 88   2021-01-02--10-31-50
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 192224 |                  2796866 |                      144 |               50 |               49 |           49 |           50
+                1 |                 195153 |                  2762483 |                      148 |               49 |               50 |           50 |           50
+
+ 
+Iteration 89   2021-01-02--10-32-02
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 193023 |                  2769574 |                      139 |               50 |               49 |           49 |           50
+                1 |                 195969 |                  2697242 |                      142 |               49 |               50 |           50 |           50
+
+ 
+Iteration 90   2021-01-02--10-32-14
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 193769 |                  2811040 |                      134 |               50 |               49 |           49 |           50
+                1 |                 196687 |                  2747620 |                      135 |               49 |               50 |           50 |           50
+
+ 
+Iteration 91   2021-01-02--10-32-26
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 194627 |                  2877205 |                      148 |               50 |               49 |           49 |           50
+                1 |                 197535 |                  2793438 |                      152 |               49 |               50 |           50 |           50
+
+ 
+Iteration 92   2021-01-02--10-32-38
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 195522 |                  2780531 |                      143 |               49 |               49 |           49 |           50
+                1 |                 198313 |                  2828874 |                      146 |               50 |               50 |           50 |           50
+
+ 
+Iteration 93   2021-01-02--10-32-50
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 196213 |                  2822710 |                      134 |               49 |               47 |           49 |           50
+                1 |                 199056 |                  2880768 |                      149 |               50 |               52 |           50 |           50
+
+ 
+Iteration 94   2021-01-02--10-33-00
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 196951 |                  2845168 |                      139 |               50 |               47 |           49 |           50
+                1 |                 199861 |                  2786570 |                      151 |               49 |               52 |           50 |           50
+
+ 
+Iteration 95   2021-01-02--10-33-11
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 197697 |                  2896364 |                      138 |               50 |               48 |           49 |           50
+                1 |                 200588 |                  2826719 |                      146 |               49 |               51 |           50 |           50
+
+ 
+Iteration 96   2021-01-02--10-33-24
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 198526 |                  2942232 |                      144 |               50 |               50 |           49 |           50
+                1 |                 201416 |                  2857972 |                      142 |               49 |               49 |           50 |           50
+
+ 
+Iteration 97   2021-01-02--10-33-36
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 199360 |                  2948367 |                      138 |               50 |               47 |           49 |           50
+                1 |                 202162 |                  2908087 |                      150 |               49 |               52 |           50 |           50
+
+ 
+Iteration 98   2021-01-02--10-33-47
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 200128 |                  2886424 |                      135 |               49 |               48 |           49 |           50
+                1 |                 202937 |                  2942207 |                      141 |               50 |               51 |           50 |           50
+
+ 
+Iteration 99   2021-01-02--10-33-59
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 200855 |                  2934669 |                      131 |               49 |               47 |           49 |           50
+                1 |                 203752 |                  2941633 |                      144 |               50 |               52 |           50 |           50
+
+ 
+Iteration 100   2021-01-02--10-34-11
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 201750 |                  2953336 |                      144 |               50 |               48 |           49 |           50
+                1 |                 204673 |                  2896611 |                      150 |               49 |               51 |           50 |           50
+
+ 
+Iteration 101   2021-01-02--10-34-23
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 202401 |                  2981793 |                      136 |               50 |               48 |           49 |           50
+                1 |                 205319 |                  2933893 |                      146 |               49 |               51 |           50 |           50
+
+ 
+Iteration 102   2021-01-02--10-34-34
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203219 |                  3003927 |                      139 |               50 |               49 |           49 |           50
+                1 |                 206077 |                  2955822 |                      144 |               49 |               50 |           50 |           50
+
+ 
+Iteration 103   2021-01-02--10-34-46
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203515 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206320 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 104   2021-01-02--10-34-57
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203518 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206323 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 105   2021-01-02--10-35-08
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203521 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206326 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 106   2021-01-02--10-35-20
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203524 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206329 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 107   2021-01-02--10-35-31
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203526 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206331 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 108   2021-01-02--10-35-42
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203527 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206332 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 109   2021-01-02--10-35-53
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203530 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206335 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 110   2021-01-02--10-36-04
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203532 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206337 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 111   2021-01-02--10-36-15
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203535 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206340 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 112   2021-01-02--10-36-26
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203537 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206342 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 113   2021-01-02--10-36-37
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203539 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206345 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 114   2021-01-02--10-36-48
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203542 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206348 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 115   2021-01-02--10-36-59
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203544 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206350 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 116   2021-01-02--10-37-11
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203547 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206353 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 117   2021-01-02--10-37-23
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203548 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206354 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 118   2021-01-02--10-37-34
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203550 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206356 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 119   2021-01-02--10-37-45
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203552 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206358 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 120   2021-01-02--10-37-56
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203554 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206360 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 121   2021-01-02--10-38-07
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203557 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206363 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 122   2021-01-02--10-38-18
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203558 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206365 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 123   2021-01-02--10-38-29
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203560 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206366 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 124   2021-01-02--10-38-40
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203562 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206369 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 125   2021-01-02--10-38-52
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203565 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206372 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 126   2021-01-02--10-39-03
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203568 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206374 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 127   2021-01-02--10-39-15
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203570 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206377 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 128   2021-01-02--10-39-26
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203573 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206379 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 129   2021-01-02--10-39-37
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203576 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206382 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 130   2021-01-02--10-39-48
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203578 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206384 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 131   2021-01-02--10-39-59
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203579 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206386 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 132   2021-01-02--10-40-10
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203582 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206389 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 133   2021-01-02--10-40-21
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203583 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206390 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 134   2021-01-02--10-40-32
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203585 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206392 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 135   2021-01-02--10-40-43
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203587 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206395 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 136   2021-01-02--10-40-54
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203590 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206397 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 137   2021-01-02--10-41-05
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203592 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206399 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 138   2021-01-02--10-41-16
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203593 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206401 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 139   2021-01-02--10-41-27
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203595 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206403 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 140   2021-01-02--10-41-38
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203597 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206405 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 141   2021-01-02--10-41-49
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203598 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206407 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 142   2021-01-02--10-42-00
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203601 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206409 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 143   2021-01-02--10-42-11
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203603 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206412 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 144   2021-01-02--10-42-22
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203605 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206415 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 145   2021-01-02--10-42-33
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203607 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206416 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 146   2021-01-02--10-42-44
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203609 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206419 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 147   2021-01-02--10-42-55
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203611 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206421 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 148   2021-01-02--10-43-06
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203614 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206423 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 149   2021-01-02--10-43-18
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203616 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206426 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 150   2021-01-02--10-43-29
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203618 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206429 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 151   2021-01-02--10-43-40
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203621 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206432 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 152   2021-01-02--10-43-51
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203623 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206434 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 153   2021-01-02--10-44-03
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203626 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206437 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 154   2021-01-02--10-44-14
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203628 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206439 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 155   2021-01-02--10-44-25
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203630 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206442 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 156   2021-01-02--10-44-36
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203633 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206444 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 157   2021-01-02--10-44-47
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203635 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206446 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 158   2021-01-02--10-44-58
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203637 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206448 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 159   2021-01-02--10-45-09
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203639 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206450 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 160   2021-01-02--10-45-20
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203641 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206452 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 161   2021-01-02--10-45-30
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203643 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206454 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 162   2021-01-02--10-45-42
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203644 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206455 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 163   2021-01-02--10-45-53
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203646 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206457 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 164   2021-01-02--10-46-04
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203649 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206460 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 165   2021-01-02--10-46-16
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203651 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206462 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 166   2021-01-02--10-46-27
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203654 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206465 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 167   2021-01-02--10-46-38
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203656 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206467 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 168   2021-01-02--10-46-49
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203658 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206469 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 169   2021-01-02--10-47-00
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203659 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206471 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 170   2021-01-02--10-47-11
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203661 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206472 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 
+Iteration 171   2021-01-02--10-47-22
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 203662 |                  3006297 |                      155 |               50 |               47 |           49 |           50
+                1 |                 206474 |                  2975934 |                      168 |               49 |               52 |           50 |           50
+
+ 

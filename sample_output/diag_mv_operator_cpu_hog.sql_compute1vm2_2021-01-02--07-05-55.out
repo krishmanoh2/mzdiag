@@ -1,0 +1,405 @@
+Starting at 2021-01-02--07-05-55
+ 
+ 
+ 
+Iteration 1   2021-01-02--07-05-55
+ 
+ dataflow_id |                            dataflow_name                             |          operator          | operator_id | scheduled_duration_ns | scheduled_times_count 
+-------------+----------------------------------------------------------------------+----------------------------+-------------+-----------------------+-----------------------
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1786 |             134217728 |                     2
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1786 |              67108864 |                     9
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1786 |              33554432 |                  1998
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | ReduceAccumulable          |        1660 |              33554432 |                     1
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1786 |              16777216 |                  5495
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | ReduceAccumulable          |        1660 |              16777216 |                    11
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | ReduceAccumulable          |        2025 |              16777216 |                     5
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1748 |              16777216 |                     3
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1786 |               8388608 |                   499
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | ReduceAccumulable          |        1660 |               8388608 |                    40
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | ReduceAccumulable          |        2025 |               8388608 |                     7
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1748 |               8388608 |                     3
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: Distinct          |        1784 |               8388608 |                     1
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | ReduceAccumulable          |        1660 |               4194304 |                   584
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | ReduceAccumulable          |        2025 |               4194304 |                   157
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1786 |               4194304 |                    69
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: Distinct          |        1784 |               4194304 |                    12
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1748 |               4194304 |                     5
+        2223 | Dataflow: materialize.public.tab_120c_v_primary_idx                  | Arrange-errors             |        2266 |               4194304 |                     1
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | ReduceAccumulable          |        1660 |               2097152 |                  3736
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | ReduceAccumulable          |        2025 |               2097152 |                  3692
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1748 |               2097152 |                   900
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: Distinct          |        1784 |               2097152 |                    42
+        2271 | Dataflow: materialize.public.tab_112c_v_primary_idx                  | Arrange                    |        2310 |               2097152 |                     1
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | ReduceAccumulable          |        1801 |               2097152 |                     1
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1748 |               1048576 |                  6313
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | ReduceAccumulable          |        2025 |               1048576 |                  3789
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | ReduceAccumulable          |        1660 |               1048576 |                  3183
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: Distinct          |        1784 |               1048576 |                   273
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange                    |        2182 |               1048576 |                     7
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1786 |               1048576 |                     2
+         668 | Dataflow: materialize.public.idx_v_user_behavior_buy_item_id         | Arrange                    |         703 |               1048576 |                     1
+         668 | Dataflow: materialize.public.idx_v_user_behavior_buy_item_id         | Arrange-errors             |         707 |               1048576 |                     1
+         712 | Dataflow: materialize.public.idx_v_user_behavior_buy_sub_category_id | Arrange                    |         730 |               1048576 |                     1
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: Distinct          |        1784 |                524288 |                  3555
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1748 |                524288 |                   779
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | ReduceAccumulable          |        1660 |                524288 |                   502
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | ReduceAccumulable          |        2025 |                524288 |                   407
+         668 | Dataflow: materialize.public.idx_v_user_behavior_buy_item_id         | Arrange                    |         703 |                524288 |                     5
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: Distinct          |        1746 |                524288 |                     5
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange                    |        2182 |                524288 |                     4
+         712 | Dataflow: materialize.public.idx_v_user_behavior_buy_sub_category_id | Arrange                    |         730 |                524288 |                     3
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange: ReduceAccumulable |        1658 |                524288 |                     3
+        2223 | Dataflow: materialize.public.tab_120c_v_primary_idx                  | Arrange                    |        2262 |                524288 |                     1
+        2271 | Dataflow: materialize.public.tab_112c_v_primary_idx                  | Arrange                    |        2310 |                524288 |                     1
+        1957 | Dataflow: materialize.public.test_primary_idx                        | Arrange-errors             |        1969 |                524288 |                     1
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange                    |        1845 |                524288 |                     1
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange                    |        1909 |                524288 |                     1
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange                    |        1682 |                524288 |                     1
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | ReduceAccumulable          |        1763 |                524288 |                     1
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: ReduceAccumulable |        1799 |                524288 |                     1
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | Arrange: ReduceAccumulable |        1038 |                524288 |                     1
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | Arrange: ReduceAccumulable |        1348 |                524288 |                     1
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: Distinct          |        1784 |                262144 |                 17661
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | ReduceAccumulable          |        1350 |                262144 |                    74
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1748 |                262144 |                    63
+         668 | Dataflow: materialize.public.idx_v_user_behavior_buy_item_id         | Arrange                    |         703 |                262144 |                    14
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | ReduceAccumulable          |        1660 |                262144 |                    13
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: Distinct          |        1746 |                262144 |                    11
+         712 | Dataflow: materialize.public.idx_v_user_behavior_buy_sub_category_id | Arrange                    |         730 |                262144 |                     9
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | ReduceAccumulable          |        2025 |                262144 |                     9
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | ReduceAccumulable          |        1801 |                262144 |                     8
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange                    |        2182 |                262144 |                     6
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange: ReduceAccumulable |        1658 |                262144 |                     6
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange: ReduceAccumulable |        2023 |                262144 |                     3
+        1957 | Dataflow: materialize.public.test_primary_idx                        | Arrange                    |        1965 |                262144 |                     2
+        2271 | Dataflow: materialize.public.tab_112c_v_primary_idx                  | Arrange-errors             |        2314 |                262144 |                     2
+        1957 | Dataflow: materialize.public.test_primary_idx                        | Arrange-errors             |        1969 |                262144 |                     1
+        2191 | Dataflow: materialize.public.mv_items_restock_primary_idx            | Arrange                    |        2214 |                262144 |                     1
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1786 |                262144 |                     1
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | Arrange                    |        1044 |                262144 |                     1
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | ReduceAccumulable          |        1763 |                262144 |                     1
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | ReduceAccumulable          |        1040 |                262144 |                     1
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | Arrange: ReduceAccumulable |        1348 |                262144 |                     1
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: Distinct          |        1784 |                131072 |                106926
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | ReduceAccumulable          |        1350 |                131072 |                  3650
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | ReduceAccumulable          |        1801 |                131072 |                   478
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | ReduceAccumulable          |        1763 |                131072 |                   123
+         668 | Dataflow: materialize.public.idx_v_user_behavior_buy_item_id         | Arrange                    |         703 |                131072 |                   105
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | ReduceAccumulable          |        1040 |                131072 |                    79
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1786 |                131072 |                    37
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange                    |        2182 |                131072 |                    28
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: Distinct          |        1746 |                131072 |                    21
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1748 |                131072 |                    18
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange: ReduceAccumulable |        1658 |                131072 |                    18
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | ReduceAccumulable          |        1660 |                131072 |                    17
+         712 | Dataflow: materialize.public.idx_v_user_behavior_buy_sub_category_id | Arrange                    |         730 |                131072 |                    16
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange: ReduceAccumulable |        2023 |                131072 |                    15
+         668 | Dataflow: materialize.public.idx_v_user_behavior_buy_item_id         | Arrange-errors             |         707 |                131072 |                    14
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: ReduceAccumulable |        1799 |                131072 |                    11
+        2271 | Dataflow: materialize.public.tab_112c_v_primary_idx                  | Arrange                    |        2310 |                131072 |                     5
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | Arrange                    |        1044 |                131072 |                     5
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | Arrange: ReduceAccumulable |        1038 |                131072 |                     5
+         712 | Dataflow: materialize.public.idx_v_user_behavior_buy_sub_category_id | Arrange-errors             |         734 |                131072 |                     4
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | ReduceAccumulable          |        2025 |                131072 |                     4
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: ReduceAccumulable |        1761 |                131072 |                     4
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | Arrange: ReduceAccumulable |        1348 |                131072 |                     4
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange                    |        1845 |                131072 |                     3
+        2191 | Dataflow: materialize.public.mv_items_restock_primary_idx            | Arrange-errors             |        2218 |                131072 |                     3
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | JoinStage: 0               |        1882 |                131072 |                     3
+        2223 | Dataflow: materialize.public.tab_120c_v_primary_idx                  | Arrange                    |        2262 |                131072 |                     2
+        1957 | Dataflow: materialize.public.test_primary_idx                        | Arrange-errors             |        1969 |                131072 |                     2
+        2223 | Dataflow: materialize.public.tab_120c_v_primary_idx                  | Arrange-errors             |        2266 |                131072 |                     2
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange-errors             |        2186 |                131072 |                     2
+        2319 | Dataflow: materialize.public.repl_test_v_primary_idx                 | Arrange                    |        2358 |                131072 |                     1
+        2271 | Dataflow: materialize.public.tab_112c_v_primary_idx                  | Arrange-errors             |        2314 |                131072 |                     1
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange-errors             |        1913 |                131072 |                     1
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange-errors             |        1686 |                131072 |                     1
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: Distinct          |        1784 |                 65536 |                422101
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | ReduceAccumulable          |        1801 |                 65536 |                  9052
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | ReduceAccumulable          |        1763 |                 65536 |                  6355
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | ReduceAccumulable          |        1350 |                 65536 |                  5069
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | ReduceAccumulable          |        1040 |                 65536 |                  4579
+         668 | Dataflow: materialize.public.idx_v_user_behavior_buy_item_id         | Arrange                    |         703 |                 65536 |                  2956
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1786 |                 65536 |                  2440
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1748 |                 65536 |                  1488
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | ReduceAccumulable          |        1660 |                 65536 |                  1406
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange                    |        2182 |                 65536 |                  1293
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | ReduceAccumulable          |        2025 |                 65536 |                  1238
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: Distinct          |        1746 |                 65536 |                   860
+         668 | Dataflow: materialize.public.idx_v_user_behavior_buy_item_id         | Arrange-errors             |         707 |                 65536 |                   758
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | Arrange: ReduceAccumulable |        1038 |                 65536 |                   671
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: ReduceAccumulable |        1799 |                 65536 |                   663
+         712 | Dataflow: materialize.public.idx_v_user_behavior_buy_sub_category_id | Arrange                    |         730 |                 65536 |                   656
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange: ReduceAccumulable |        1658 |                 65536 |                   520
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | Arrange                    |        1044 |                 65536 |                   411
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: ReduceAccumulable |        1761 |                 65536 |                   410
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange: ReduceAccumulable |        2023 |                 65536 |                   361
+        2223 | Dataflow: materialize.public.tab_120c_v_primary_idx                  | Arrange                    |        2262 |                 65536 |                   343
+        2223 | Dataflow: materialize.public.tab_120c_v_primary_idx                  | Arrange-errors             |        2266 |                 65536 |                   335
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | Arrange: ReduceAccumulable |        1348 |                 65536 |                   286
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | JoinStage: 0               |        1882 |                 65536 |                   265
+         712 | Dataflow: materialize.public.idx_v_user_behavior_buy_sub_category_id | Arrange-errors             |         734 |                 65536 |                   241
+        2191 | Dataflow: materialize.public.mv_items_restock_primary_idx            | Arrange                    |        2214 |                 65536 |                   232
+        2271 | Dataflow: materialize.public.tab_112c_v_primary_idx                  | Arrange                    |        2310 |                 65536 |                   231
+        2319 | Dataflow: materialize.public.repl_test_v_primary_idx                 | Arrange                    |        2358 |                 65536 |                   215
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | Arrange                    |        1354 |                 65536 |                   212
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange                    |        1845 |                 65536 |                   206
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange-errors             |        2186 |                 65536 |                   198
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange                    |        1682 |                 65536 |                   193
+        1957 | Dataflow: materialize.public.test_primary_idx                        | Arrange                    |        1965 |                 65536 |                   189
+        2319 | Dataflow: materialize.public.repl_test_v_primary_idx                 | Arrange-errors             |        2362 |                 65536 |                   162
+        2271 | Dataflow: materialize.public.tab_112c_v_primary_idx                  | Arrange-errors             |        2314 |                 65536 |                   144
+        2191 | Dataflow: materialize.public.mv_items_restock_primary_idx            | Arrange-errors             |        2218 |                 65536 |                   140
+        1957 | Dataflow: materialize.public.test_primary_idx                        | Arrange-errors             |        1969 |                 65536 |                   129
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange                    |        1909 |                 65536 |                   127
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange-errors             |        1686 |                 65536 |                   112
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange-errors             |        1913 |                 65536 |                   110
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: Distinct          |        1784 |                 32768 |                290704
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | ReduceAccumulable          |        1801 |                 32768 |                116982
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | ReduceAccumulable          |        1763 |                 32768 |                 48579
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | ReduceAccumulable          |        1040 |                 32768 |                 28166
+         668 | Dataflow: materialize.public.idx_v_user_behavior_buy_item_id         | Arrange                    |         703 |                 32768 |                 26306
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1786 |                 32768 |                 24532
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1748 |                 32768 |                 17322
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | Arrange: ReduceAccumulable |        1038 |                 32768 |                 17181
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange                    |        2182 |                 32768 |                 15784
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | ReduceAccumulable          |        1660 |                 32768 |                 15371
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: Distinct          |        1746 |                 32768 |                 14767
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | ReduceAccumulable          |        2025 |                 32768 |                 12869
+         712 | Dataflow: materialize.public.idx_v_user_behavior_buy_sub_category_id | Arrange                    |         730 |                 32768 |                 11802
+         668 | Dataflow: materialize.public.idx_v_user_behavior_buy_item_id         | Arrange-errors             |         707 |                 32768 |                 10597
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: ReduceAccumulable |        1799 |                 32768 |                  9827
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | ReduceAccumulable          |        1350 |                 32768 |                  9415
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | Arrange                    |        1044 |                 32768 |                  8954
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange: ReduceAccumulable |        1658 |                 32768 |                  7809
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: ReduceAccumulable |        1761 |                 32768 |                  6304
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange: ReduceAccumulable |        2023 |                 32768 |                  5517
+         712 | Dataflow: materialize.public.idx_v_user_behavior_buy_sub_category_id | Arrange-errors             |         734 |                 32768 |                  5185
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | Arrange: ReduceAccumulable |        1348 |                 32768 |                  4400
+        2191 | Dataflow: materialize.public.mv_items_restock_primary_idx            | Arrange                    |        2214 |                 32768 |                  4158
+        2223 | Dataflow: materialize.public.tab_120c_v_primary_idx                  | Arrange                    |        2262 |                 32768 |                  3950
+        2223 | Dataflow: materialize.public.tab_120c_v_primary_idx                  | Arrange-errors             |        2266 |                 32768 |                  3797
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | JoinStage: 0               |        1882 |                 32768 |                  3320
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange                    |        1682 |                 32768 |                  2967
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange-errors             |        2186 |                 32768 |                  2763
+        1957 | Dataflow: materialize.public.test_primary_idx                        | Arrange                    |        1965 |                 32768 |                  2504
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange                    |        1845 |                 32768 |                  2496
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | Arrange                    |        1354 |                 32768 |                  2489
+        2271 | Dataflow: materialize.public.tab_112c_v_primary_idx                  | Arrange                    |        2310 |                 32768 |                  2432
+        2319 | Dataflow: materialize.public.repl_test_v_primary_idx                 | Arrange                    |        2358 |                 32768 |                  2413
+        2191 | Dataflow: materialize.public.mv_items_restock_primary_idx            | Arrange-errors             |        2218 |                 32768 |                  2327
+        2271 | Dataflow: materialize.public.tab_112c_v_primary_idx                  | Arrange-errors             |        2314 |                 32768 |                  1650
+        1957 | Dataflow: materialize.public.test_primary_idx                        | Arrange-errors             |        1969 |                 32768 |                  1565
+        2319 | Dataflow: materialize.public.repl_test_v_primary_idx                 | Arrange-errors             |        2362 |                 32768 |                  1513
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange                    |        1909 |                 32768 |                  1476
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange-errors             |        1913 |                 32768 |                  1341
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange-errors             |        1686 |                 32768 |                  1219
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1786 |                 16384 |                328870
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | ReduceAccumulable          |        1763 |                 16384 |                327630
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | ReduceAccumulable          |        1660 |                 16384 |                321220
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1748 |                 16384 |                304834
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | ReduceAccumulable          |        1801 |                 16384 |                265361
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | ReduceAccumulable          |        2025 |                 16384 |                256829
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: Distinct          |        1784 |                 16384 |                253037
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | ReduceAccumulable          |        1040 |                 16384 |                238255
+         668 | Dataflow: materialize.public.idx_v_user_behavior_buy_item_id         | Arrange                    |         703 |                 16384 |                185492
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | ReduceAccumulable          |        1350 |                 16384 |                109765
+         668 | Dataflow: materialize.public.idx_v_user_behavior_buy_item_id         | Arrange-errors             |         707 |                 16384 |                 70356
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: Distinct          |        1746 |                 16384 |                 62228
+         712 | Dataflow: materialize.public.idx_v_user_behavior_buy_sub_category_id | Arrange                    |         730 |                 16384 |                 60298
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: ReduceAccumulable |        1799 |                 16384 |                 54338
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | Arrange: ReduceAccumulable |        1038 |                 16384 |                 40104
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange: ReduceAccumulable |        1658 |                 16384 |                 24462
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange: ReduceAccumulable |        2023 |                 16384 |                 13716
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange                    |        2182 |                 16384 |                 13603
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | Arrange: ReduceAccumulable |        1348 |                 16384 |                 12884
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: ReduceAccumulable |        1761 |                 16384 |                 12689
+        2223 | Dataflow: materialize.public.tab_120c_v_primary_idx                  | Arrange                    |        2262 |                 16384 |                 11094
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | Arrange                    |        1044 |                 16384 |                  9058
+        1957 | Dataflow: materialize.public.test_primary_idx                        | Arrange                    |        1965 |                 16384 |                  8450
+        2223 | Dataflow: materialize.public.tab_120c_v_primary_idx                  | Arrange-errors             |        2266 |                 16384 |                  7736
+        1957 | Dataflow: materialize.public.test_primary_idx                        | Arrange-errors             |        1969 |                 16384 |                  6961
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | JoinStage: 0               |        1882 |                 16384 |                  6605
+        2191 | Dataflow: materialize.public.mv_items_restock_primary_idx            | Arrange                    |        2214 |                 16384 |                  6380
+         712 | Dataflow: materialize.public.idx_v_user_behavior_buy_sub_category_id | Arrange-errors             |         734 |                 16384 |                  6247
+        2319 | Dataflow: materialize.public.repl_test_v_primary_idx                 | Arrange                    |        2358 |                 16384 |                  5997
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange                    |        1845 |                 16384 |                  5638
+        2271 | Dataflow: materialize.public.tab_112c_v_primary_idx                  | Arrange                    |        2310 |                 16384 |                  5430
+        2191 | Dataflow: materialize.public.mv_items_restock_primary_idx            | Arrange-errors             |        2218 |                 16384 |                  4769
+        2319 | Dataflow: materialize.public.repl_test_v_primary_idx                 | Arrange-errors             |        2362 |                 16384 |                  4582
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange-errors             |        2186 |                 16384 |                  4560
+        2271 | Dataflow: materialize.public.tab_112c_v_primary_idx                  | Arrange-errors             |        2314 |                 16384 |                  4348
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | Arrange                    |        1354 |                 16384 |                  4327
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange                    |        1682 |                 16384 |                  4303
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange                    |        1909 |                 16384 |                  3714
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange-errors             |        1913 |                 16384 |                  3557
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange-errors             |        1686 |                 16384 |                  3528
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: Distinct          |        1784 |                  8192 |                672471
+         668 | Dataflow: materialize.public.idx_v_user_behavior_buy_item_id         | Arrange                    |         703 |                  8192 |                400742
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: ReduceAccumulable |        1761 |                  8192 |                365719
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | Arrange: ReduceAccumulable |        1038 |                  8192 |                350237
+         712 | Dataflow: materialize.public.idx_v_user_behavior_buy_sub_category_id | Arrange                    |         730 |                  8192 |                336954
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: Distinct          |        1746 |                  8192 |                336537
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: ReduceAccumulable |        1799 |                  8192 |                325772
+         668 | Dataflow: materialize.public.idx_v_user_behavior_buy_item_id         | Arrange-errors             |         707 |                  8192 |                321121
+         712 | Dataflow: materialize.public.idx_v_user_behavior_buy_sub_category_id | Arrange-errors             |         734 |                  8192 |                298554
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | Arrange: ReduceAccumulable |        1348 |                  8192 |                286435
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange: ReduceAccumulable |        1658 |                  8192 |                282561
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | Arrange                    |        1044 |                  8192 |                280535
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | ReduceAccumulable          |        1350 |                  8192 |                273617
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange: ReduceAccumulable |        2023 |                  8192 |                260019
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange                    |        2182 |                  8192 |                222445
+        2191 | Dataflow: materialize.public.mv_items_restock_primary_idx            | Arrange                    |        2214 |                  8192 |                198013
+        2223 | Dataflow: materialize.public.tab_120c_v_primary_idx                  | Arrange-errors             |        2266 |                  8192 |                154985
+        2223 | Dataflow: materialize.public.tab_120c_v_primary_idx                  | Arrange                    |        2262 |                  8192 |                151337
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | Arrange                    |        1354 |                  8192 |                140590
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | ReduceAccumulable          |        1040 |                  8192 |                130496
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange                    |        1682 |                  8192 |                128767
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | ReduceAccumulable          |        2025 |                  8192 |                122854
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange-errors             |        2186 |                  8192 |                122809
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | JoinStage: 0               |        1882 |                  8192 |                108980
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange                    |        1845 |                  8192 |                 87197
+        2271 | Dataflow: materialize.public.tab_112c_v_primary_idx                  | Arrange                    |        2310 |                  8192 |                 73915
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1748 |                  8192 |                 70187
+        2191 | Dataflow: materialize.public.mv_items_restock_primary_idx            | Arrange-errors             |        2218 |                  8192 |                 62227
+        2319 | Dataflow: materialize.public.repl_test_v_primary_idx                 | Arrange                    |        2358 |                  8192 |                 56485
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | ReduceAccumulable          |        1660 |                  8192 |                 55553
+        1957 | Dataflow: materialize.public.test_primary_idx                        | Arrange                    |        1965 |                  8192 |                 44460
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1786 |                  8192 |                 39896
+        2271 | Dataflow: materialize.public.tab_112c_v_primary_idx                  | Arrange-errors             |        2314 |                  8192 |                 31758
+        2319 | Dataflow: materialize.public.repl_test_v_primary_idx                 | Arrange-errors             |        2362 |                  8192 |                 22416
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange                    |        1909 |                  8192 |                 19656
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | ReduceAccumulable          |        1763 |                  8192 |                 19140
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange-errors             |        1686 |                  8192 |                 16070
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange-errors             |        1913 |                  8192 |                 15468
+        1957 | Dataflow: materialize.public.test_primary_idx                        | Arrange-errors             |        1969 |                  8192 |                 15438
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | ReduceAccumulable          |        1801 |                  8192 |                 12007
+        1957 | Dataflow: materialize.public.test_primary_idx                        | Arrange                    |        1965 |                  4096 |                514531
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange                    |        1909 |                  4096 |                335681
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange-errors             |        1913 |                  4096 |                331739
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange-errors             |        1686 |                  4096 |                318060
+        2191 | Dataflow: materialize.public.mv_items_restock_primary_idx            | Arrange-errors             |        2218 |                  4096 |                317609
+        1957 | Dataflow: materialize.public.test_primary_idx                        | Arrange-errors             |        1969 |                  4096 |                312566
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange                    |        1845 |                  4096 |                308058
+        2271 | Dataflow: materialize.public.tab_112c_v_primary_idx                  | Arrange-errors             |        2314 |                  4096 |                300970
+        2319 | Dataflow: materialize.public.repl_test_v_primary_idx                 | Arrange                    |        2358 |                  4096 |                283750
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | JoinStage: 0               |        1882 |                  4096 |                282373
+        2319 | Dataflow: materialize.public.repl_test_v_primary_idx                 | Arrange-errors             |        2362 |                  4096 |                281311
+        2271 | Dataflow: materialize.public.tab_112c_v_primary_idx                  | Arrange                    |        2310 |                  4096 |                274821
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange-errors             |        2186 |                  4096 |                269224
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange                    |        1682 |                  4096 |                265441
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: Distinct          |        1784 |                  4096 |                261406
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | Arrange                    |        1354 |                  4096 |                253781
+        2191 | Dataflow: materialize.public.mv_items_restock_primary_idx            | Arrange                    |        2214 |                  4096 |                192189
+        2223 | Dataflow: materialize.public.tab_120c_v_primary_idx                  | Arrange                    |        2262 |                  4096 |                191748
+        2223 | Dataflow: materialize.public.tab_120c_v_primary_idx                  | Arrange-errors             |        2266 |                  4096 |                190897
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange                    |        2182 |                  4096 |                160943
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange: ReduceAccumulable |        2023 |                  4096 |                130730
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | Arrange: ReduceAccumulable |        1348 |                  4096 |                114209
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange: ReduceAccumulable |        1658 |                  4096 |                103402
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | Arrange                    |        1044 |                  4096 |                102576
+         712 | Dataflow: materialize.public.idx_v_user_behavior_buy_sub_category_id | Arrange-errors             |         734 |                  4096 |                 91522
+         668 | Dataflow: materialize.public.idx_v_user_behavior_buy_item_id         | Arrange                    |         703 |                  4096 |                 86037
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: ReduceAccumulable |        1761 |                  4096 |                 29183
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: ReduceAccumulable |        1799 |                  4096 |                 17984
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1748 |                  4096 |                  7500
+         712 | Dataflow: materialize.public.idx_v_user_behavior_buy_sub_category_id | Arrange                    |         730 |                  4096 |                  5419
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1786 |                  4096 |                  5197
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | Arrange: ReduceAccumulable |        1038 |                  4096 |                  3948
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | ReduceAccumulable          |        2025 |                  4096 |                  2437
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | ReduceAccumulable          |        1660 |                  4096 |                  1437
+         668 | Dataflow: materialize.public.idx_v_user_behavior_buy_item_id         | Arrange-errors             |         707 |                  4096 |                  1247
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | ReduceAccumulable          |        1763 |                  4096 |                  1188
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | ReduceAccumulable          |        1040 |                  4096 |                  1027
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | ReduceAccumulable          |        1350 |                  4096 |                   459
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: Distinct          |        1746 |                  4096 |                   428
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | ReduceAccumulable          |        1801 |                  4096 |                   272
+        1957 | Dataflow: materialize.public.test_primary_idx                        | Arrange-errors             |        1969 |                  2048 |                413270
+         668 | Dataflow: materialize.public.idx_v_user_behavior_buy_item_id         | Arrange                    |         703 |                  2048 |                275497
+        1957 | Dataflow: materialize.public.test_primary_idx                        | Arrange                    |        1965 |                  2048 |                180682
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: Distinct          |        1784 |                  2048 |                 86775
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange-errors             |        1686 |                  2048 |                 62551
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange                    |        1909 |                  2048 |                 53457
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange-errors             |        1913 |                  2048 |                 52409
+        2319 | Dataflow: materialize.public.repl_test_v_primary_idx                 | Arrange-errors             |        2362 |                  2048 |                 49504
+        2271 | Dataflow: materialize.public.tab_112c_v_primary_idx                  | Arrange-errors             |        2314 |                  2048 |                 20823
+        2191 | Dataflow: materialize.public.mv_items_restock_primary_idx            | Arrange-errors             |        2218 |                  2048 |                 14454
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | Arrange: ReduceAccumulable |        1038 |                  2048 |                 13160
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: ReduceAccumulable |        1761 |                  2048 |                 11953
+        2319 | Dataflow: materialize.public.repl_test_v_primary_idx                 | Arrange                    |        2358 |                  2048 |                 10631
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | ReduceAccumulable          |        2025 |                  2048 |                  6141
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: Distinct          |        1746 |                  2048 |                  6063
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1786 |                  2048 |                  5595
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | JoinStage: 0               |        1882 |                  2048 |                  4796
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | ReduceAccumulable          |        1350 |                  2048 |                  4246
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | ReduceAccumulable          |        1660 |                  2048 |                  4022
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | ReduceAccumulable          |        1040 |                  2048 |                  3063
+        2271 | Dataflow: materialize.public.tab_112c_v_primary_idx                  | Arrange                    |        2310 |                  2048 |                  2863
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | ReduceAccumulable          |        1763 |                  2048 |                  2807
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | Arrange: ReduceAccumulable |        1348 |                  2048 |                  2503
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange                    |        2182 |                  2048 |                  2423
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange-errors             |        2186 |                  2048 |                  2245
+         712 | Dataflow: materialize.public.idx_v_user_behavior_buy_sub_category_id | Arrange                    |         730 |                  2048 |                  2207
+        2223 | Dataflow: materialize.public.tab_120c_v_primary_idx                  | Arrange-errors             |        2266 |                  2048 |                  2075
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: ReduceAccumulable |        1799 |                  2048 |                  1824
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | ReduceAccumulable          |        1801 |                  2048 |                  1731
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange: ReduceAccumulable |        2023 |                  2048 |                  1556
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange: ReduceAccumulable |        1658 |                  2048 |                  1542
+        2223 | Dataflow: materialize.public.tab_120c_v_primary_idx                  | Arrange                    |        2262 |                  2048 |                  1355
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1748 |                  2048 |                  1080
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange                    |        1845 |                  2048 |                  1062
+        2191 | Dataflow: materialize.public.mv_items_restock_primary_idx            | Arrange                    |        2214 |                  2048 |                   555
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | Arrange                    |        1354 |                  2048 |                   143
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange                    |        1682 |                  2048 |                    38
+         712 | Dataflow: materialize.public.idx_v_user_behavior_buy_sub_category_id | Arrange-errors             |         734 |                  2048 |                    27
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | Arrange                    |        1044 |                  2048 |                     2
+         668 | Dataflow: materialize.public.idx_v_user_behavior_buy_item_id         | Arrange-errors             |         707 |                  2048 |                     2
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: Distinct          |        1784 |                  1024 |                207442
+         668 | Dataflow: materialize.public.idx_v_user_behavior_buy_item_id         | Arrange                    |         703 |                  1024 |                133719
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange: ReduceAccumulable |        2023 |                  1024 |                  6637
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | ReduceAccumulable          |        1660 |                  1024 |                  5381
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | Arrange: ReduceAccumulable |        1348 |                  1024 |                  4934
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | ReduceAccumulable          |        1350 |                  1024 |                  4858
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange: ReduceAccumulable |        1658 |                  1024 |                  4744
+         712 | Dataflow: materialize.public.idx_v_user_behavior_buy_sub_category_id | Arrange                    |         730 |                  1024 |                  2441
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: ReduceAccumulable |        1761 |                  1024 |                  1446
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange                    |        1909 |                  1024 |                  1424
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | Arrange: ReduceAccumulable |        1038 |                  1024 |                  1213
+        1957 | Dataflow: materialize.public.test_primary_idx                        | Arrange-errors             |        1969 |                  1024 |                   885
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange                    |        2182 |                  1024 |                   735
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: ReduceAccumulable |        1799 |                  1024 |                   176
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | JoinStage: 0               |        1882 |                  1024 |                   175
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | ReduceAccumulable          |        2025 |                  1024 |                   142
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: Distinct          |        1746 |                  1024 |                    99
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange                    |        1682 |                  1024 |                    38
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Distinct                   |        1786 |                  1024 |                    17
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | ReduceAccumulable          |        1801 |                  1024 |                    15
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange                    |        1845 |                  1024 |                    11
+        2319 | Dataflow: materialize.public.repl_test_v_primary_idx                 | Arrange-errors             |        2362 |                  1024 |                     2
+         668 | Dataflow: materialize.public.idx_v_user_behavior_buy_item_id         | Arrange-errors             |         707 |                  1024 |                     2
+         712 | Dataflow: materialize.public.idx_v_user_behavior_buy_sub_category_id | Arrange-errors             |         734 |                  1024 |                     2
+        2223 | Dataflow: materialize.public.tab_120c_v_primary_idx                  | Arrange                    |        2262 |                  1024 |                     1
+        2319 | Dataflow: materialize.public.repl_test_v_primary_idx                 | Arrange                    |        2358 |                  1024 |                     1
+        2191 | Dataflow: materialize.public.mv_items_restock_primary_idx            | Arrange                    |        2214 |                  1024 |                     1
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange-errors             |        1913 |                  1024 |                     1
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange-errors             |        1686 |                  1024 |                     1
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange-errors             |        2186 |                  1024 |                     1
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange: ReduceAccumulable |        1658 |                   512 |                  4415
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | Arrange: ReduceAccumulable |        1348 |                   512 |                  2963
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: Distinct          |        1784 |                   512 |                  2789
+         668 | Dataflow: materialize.public.idx_v_user_behavior_buy_item_id         | Arrange                    |         703 |                   512 |                  1590
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange: ReduceAccumulable |        2023 |                   512 |                  1361
+         712 | Dataflow: materialize.public.idx_v_user_behavior_buy_sub_category_id | Arrange                    |         730 |                   512 |                  1165
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange                    |        1909 |                   512 |                   134
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | ReduceAccumulable          |        1350 |                   512 |                   133
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   | Arrange                    |        2182 |                   512 |                    71
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: ReduceAccumulable |        1799 |                   512 |                    39
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | JoinStage: 0               |        1882 |                   512 |                    37
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | ReduceAccumulable          |        1660 |                   512 |                     8
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange                    |        1682 |                   512 |                     3
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         | Arrange: ReduceAccumulable |        1761 |                   512 |                     3
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        | Arrange: ReduceAccumulable |        1038 |                   512 |                     3
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        | Arrange: ReduceAccumulable |        1658 |                   256 |                     1
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   | Arrange: ReduceAccumulable |        1348 |                   256 |                     1
+
+ 

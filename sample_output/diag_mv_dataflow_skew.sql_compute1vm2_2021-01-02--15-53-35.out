@@ -1,0 +1,184 @@
+Starting at 2021-01-02--15-53-35
+ 
+ 
+ 
+Iteration 1   2021-01-02--15-53-35
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 2   2021-01-02--15-53-46
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 3   2021-01-02--15-54-00
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 4   2021-01-02--15-54-14
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 5   2021-01-02--15-54-25
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 6   2021-01-02--15-54-38
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 7   2021-01-02--15-54-52
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 8   2021-01-02--15-55-06
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 9   2021-01-02--15-55-19
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 10   2021-01-02--15-55-33
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 11   2021-01-02--15-55-46
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 12   2021-01-02--15-55-58
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 13   2021-01-02--15-56-09
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 14   2021-01-02--15-56-21
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 15   2021-01-02--15-56-33
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 16   2021-01-02--15-56-45
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 17   2021-01-02--15-56-57
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 18   2021-01-02--15-57-08
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 19   2021-01-02--15-57-20
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 20   2021-01-02--15-57-34
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 21   2021-01-02--15-57-48
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 22   2021-01-02--15-58-00
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 23   2021-01-02--15-58-14
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 24   2021-01-02--15-58-28
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 25   2021-01-02--15-58-38
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 26   2021-01-02--15-58-50
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 27   2021-01-02--15-59-05
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 28   2021-01-02--15-59-19
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 29   2021-01-02--15-59-32
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 
+Iteration 30   2021-01-02--15-59-46
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 

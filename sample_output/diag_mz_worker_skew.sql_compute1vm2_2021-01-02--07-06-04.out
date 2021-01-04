@@ -1,0 +1,12 @@
+Starting at 2021-01-02--07-06-04
+ 
+ 
+ 
+Iteration 1   2021-01-02--07-06-04
+ 
+ worker_thread_id | cpu_time_ms_per_worker | total_records_per_worker | total_batches_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+------------------------+--------------------------+--------------------------+------------------+------------------+--------------+--------------
+                0 |                 143348 |                  2143381 |                      162 |               49 |               48 |           49 |           50
+                1 |                 146114 |                  2150459 |                      169 |               50 |               51 |           50 |           50
+
+ 

@@ -1,0 +1,10 @@
+Starting at 2021-01-02--07-05-54
+ 
+ 
+ 
+Iteration 1   2021-01-02--07-05-54
+ 
+ worker_thread_id | dataflow_id | dataflow_name | cpu_time_dataflow_ms_per_worker | total_records_dataflow_per_worker | total_batches_dataflow_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+---------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+
+ 

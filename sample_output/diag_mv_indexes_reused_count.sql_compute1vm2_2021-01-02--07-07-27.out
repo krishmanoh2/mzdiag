@@ -1,0 +1,21 @@
+Starting at 2021-01-02--07-07-27
+ 
+ 
+ 
+Iteration 1   2021-01-02--07-07-27
+ 
+                        source_name                         | reuse_count 
+------------------------------------------------------------+-------------
+ materialize.public.tab_112c                                |           1
+ materialize.public.tab_120c                                |           1
+ materialize.public.repl_test                               |           1
+ materialize.public.src_item_dim                            |           1
+ materialize.public.src_category_dim                        |           1
+ materialize.public.src_user_behavior                       |           2
+ materialize.public.src_sub_category_dim                    |           1
+ materialize.public.src_item_inventory_dim                  |           1
+ materialize.public.idx_v_user_behavior_buy_item_id         |           6
+ materialize.public.mv_items_inventory_status_primary_idx   |           1
+ materialize.public.idx_v_user_behavior_buy_sub_category_id |           3
+
+ 

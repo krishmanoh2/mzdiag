@@ -1,0 +1,27 @@
+Starting at 2021-01-02--07-07-29
+ 
+ 
+ 
+Iteration 1   2021-01-02--07-07-29
+ 
+ time_behind_seconds |               index_name                |          mv_name          | tab_name 
+---------------------+-----------------------------------------+---------------------------+----------
+  1.7995359897613525 | test_primary_idx                        |                           | test
+                     | idx_v_item_dim_item_id                  | v_item_dim                | 
+  0.7995359897613525 | tab_112c_v_primary_idx                  | tab_112c_v                | 
+  0.7995359897613525 | tab_120c_v_primary_idx                  | tab_120c_v                | 
+  0.7995359897613525 | repl_test_v_primary_idx                 | repl_test_v               | 
+                     | idx_v_category_dim_category_id          | v_category_dim            | 
+                     | idx_v_item_inventory_dim_item_id        | v_item_inventory_dim      | 
+                     | idx_v_sub_category_dim_category_id      | v_sub_category_dim        | 
+  0.7995359897613525 | mv_items_restock_primary_idx            | mv_items_restock          | 
+                     | idx_v_sub_category_dim_sub_category_id  | v_sub_category_dim        | 
+  0.7995359897613525 | idx_v_user_behavior_buy_item_id         | v_user_behavior_buy       | 
+  0.7995359897613525 | mv_user_funnel_perc_primary_idx         | mv_user_funnel_perc       | 
+  0.7995359897613525 | mv_buy_activity_time_primary_idx        | mv_buy_activity_time      | 
+  0.7995359897613525 | mv_buy_top_items_day_primary_idx        | mv_buy_top_items_day      | 
+  0.7995359897613525 | idx_v_user_behavior_buy_sub_category_id | v_user_behavior_buy       | 
+  0.7995359897613525 | mv_buy_top_categories_day_primary_idx   | mv_buy_top_categories_day | 
+  0.7995359897613525 | mv_items_inventory_status_primary_idx   | mv_items_inventory_status | 
+
+ 

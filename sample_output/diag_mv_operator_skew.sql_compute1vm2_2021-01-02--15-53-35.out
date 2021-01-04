@@ -1,0 +1,244 @@
+Starting at 2021-01-02--15-53-35
+ 
+ 
+ 
+Iteration 1   2021-01-02--15-53-35
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5059 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7646 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 2   2021-01-02--15-53-46
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5060 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7646 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 3   2021-01-02--15-54-00
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5060 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7647 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 4   2021-01-02--15-54-14
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5061 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7648 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 5   2021-01-02--15-54-25
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5061 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7649 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 6   2021-01-02--15-54-38
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5061 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7650 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 7   2021-01-02--15-54-52
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5062 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7651 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 8   2021-01-02--15-55-06
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5062 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7651 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 9   2021-01-02--15-55-19
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5063 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7652 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 10   2021-01-02--15-55-33
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5063 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7653 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 11   2021-01-02--15-55-46
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5063 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7654 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 12   2021-01-02--15-55-58
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5064 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7655 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 13   2021-01-02--15-56-09
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5064 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7655 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 14   2021-01-02--15-56-21
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5064 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7656 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 15   2021-01-02--15-56-33
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5065 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7657 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 16   2021-01-02--15-56-45
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5065 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7657 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 17   2021-01-02--15-56-57
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5065 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7658 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 18   2021-01-02--15-57-08
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5066 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7658 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 19   2021-01-02--15-57-20
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5066 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7659 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 20   2021-01-02--15-57-34
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5066 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7660 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 21   2021-01-02--15-57-48
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5067 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7661 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 22   2021-01-02--15-58-01
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5067 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7661 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 23   2021-01-02--15-58-14
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5068 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7662 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 24   2021-01-02--15-58-28
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5068 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7663 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 25   2021-01-02--15-58-38
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5068 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7664 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 26   2021-01-02--15-58-50
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5069 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7665 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 27   2021-01-02--15-59-05
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5069 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7665 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 28   2021-01-02--15-59-19
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5070 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7666 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 29   2021-01-02--15-59-32
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5070 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7667 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 
+Iteration 30   2021-01-02--15-59-46
+ 
+ worker_thread_id | dataflow_id |                        dataflow_name                         |     operator      | cpu_time_operator_ms_per_worker | total_records_operator_per_worker | total_batches_operator_per_worker | pct_records_skew | pct_batches_skew | pct_cpu_skew | expected_pct 
+------------------+-------------+--------------------------------------------------------------+-------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------+------------------+--------------+--------------
+                0 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            5070 |                                 0 |                                 2 |                0 |               33 |           39 |           50
+                1 |        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx | ReduceAccumulable |                            7668 |                                 2 |                                 4 |              100 |               66 |           60 |           50
+
+ 

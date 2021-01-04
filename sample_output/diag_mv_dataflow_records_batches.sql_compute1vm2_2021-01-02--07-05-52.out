@@ -1,0 +1,22 @@
+Starting at 2021-01-02--07-05-52
+ 
+ 
+ 
+Iteration 1   2021-01-02--07-05-52
+ 
+ dataflow_id |                            dataflow_name                             | total_records_dataflow | total_batches_dataflow 
+-------------+----------------------------------------------------------------------+------------------------+------------------------
+        1691 | Dataflow: materialize.public.mv_user_funnel_perc_primary_idx         |                1855822 |                    104
+        1359 | Dataflow: materialize.public.mv_buy_top_items_day_primary_idx        |                 834976 |                     46
+        1974 | Dataflow: materialize.public.mv_items_inventory_status_primary_idx   |                 705168 |                     63
+         712 | Dataflow: materialize.public.idx_v_user_behavior_buy_sub_category_id |                 448034 |                     23
+         668 | Dataflow: materialize.public.idx_v_user_behavior_buy_item_id         |                 448006 |                     21
+        1049 | Dataflow: materialize.public.mv_buy_top_categories_day_primary_idx   |                   1365 |                     26
+        2271 | Dataflow: materialize.public.tab_112c_v_primary_idx                  |                    199 |                      6
+         739 | Dataflow: materialize.public.mv_buy_activity_time_primary_idx        |                    161 |                     22
+        2223 | Dataflow: materialize.public.tab_120c_v_primary_idx                  |                    105 |                      6
+        2319 | Dataflow: materialize.public.repl_test_v_primary_idx                 |                      4 |                      6
+        1957 | Dataflow: materialize.public.test_primary_idx                        |                      0 |                      4
+        2191 | Dataflow: materialize.public.mv_items_restock_primary_idx            |                      0 |                      4
+
+ 
