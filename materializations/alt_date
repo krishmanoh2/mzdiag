@@ -1,0 +1,16 @@
+create  source src_current_date (current_time) from file '/home/mz/src/current_date_utc.out' with(tail=true) format csv with 1 columns;
+
+
+materialize=> create or replace materialized view mv_current_time as select to_timestamp(max(current_time::bigint)/1000) as current_time from src_current_date;
+CREATE VIEW
+
+
+[mz@compute1vm2 src]$ more gen_date.sh 
+#! /bin/bash
+
+while true
+do
+date +'%s%3N'
+sleep 1
+done
+
