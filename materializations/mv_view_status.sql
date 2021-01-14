@@ -14,4 +14,4 @@ full outer join mz_indexes b on a.global_id = b.id
 full outer join mz_views c on c.id = b.on_id 
 full outer join mz_tables d on d.id = b.on_id  
 cross join mv_current_time e
-where b.name not like 'mz%';
+-- where b.name not like 'mz%';
