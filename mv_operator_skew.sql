@@ -27,59 +27,43 @@ mse.worker as worker_thread_id,
 (sum(elapsed_ns))/1000000 as cpu_time_operator_ms_per_worker,
 sum(mas.records) as total_records_operator_per_worker, 
 sum(mas.batches) total_batches_operator_per_worker, 
-dataflow_id, 
-mdi.name as dataflow_name,
+mdo.dataflow_id, 
+mdo.dataflow_name,
 mdo.name as operator
 -- * 
 from 
-	 mz_scheduling_elapsed mse,
-     mz_dataflow_operators as mdo,  
-     mz_arrangement_sizes as mas, 
-     mz_records_per_dataflow_operator mdr,
-     mz_records_per_dataflow mdi 
+  mz_scheduling_elapsed mse
+  join mz_dataflow_operator_dataflows as mdo on mse.id = mdo.id and mse.worker = mdo.worker
+  left join mz_arrangement_sizes as mas on  mas.operator = mdo.id and mas.worker = mdo.worker
+  left join  mz_records_per_dataflow_operator mdr on mdr.id = mdo.id and mdr.worker = mdo.worker 
+  left join  mz_records_per_dataflow mdi on mdr.dataflow_id = mdi.id and mdi.worker = mdr.worker 
 where 
-    -- mas.records > 0 and
-    mse.id = mdo.id and
-    mse.worker = mdo.worker and
-    mas.operator = mdo.id and
-    mas.worker = mdo.worker
-    and mdr.id = mdo.id
-    and mdr.worker = mdo.worker 
-    and mdr.dataflow_id = mdi.id
-    and mdi.name not like '%mz_catalog%' 
-    and mdi.worker = mdr.worker
-    group by mse.worker, dataflow_id, mdi.name,  mdo.name
+mse.id != mdo.dataflow_id    
+group by mse.worker, mdo.dataflow_id, mdo.dataflow_name,  mdo.name
     ) A,
 (select
 count(distinct mse.worker) as total_worker_threads, 
 (sum(elapsed_ns))/1000000 as total_cpu_time_operator_ms,
 sum(mas.records) as total_records_per_operator, 
 sum(mas.batches) total_batches_per_operator, 
-dataflow_id, 
-mdi.name as dataflow_name,
+mdo.dataflow_id, 
+mdo.dataflow_name,
 mdo.name as operator
 from 
-	 mz_scheduling_elapsed mse,
-     mz_dataflow_operators as mdo,  
-     mz_arrangement_sizes as mas, 
-     mz_records_per_dataflow_operator mdr,
-     mz_records_per_dataflow mdi 
-where 
-    -- mas.records > 0 and
-    mse.id = mdo.id and
-    mse.worker = mdo.worker and
-    mas.operator = mdo.id and
-    mas.worker = mdo.worker
-    and mdr.id = mdo.id
-    and mdr.worker = mdo.worker 
-    and mdr.dataflow_id = mdi.id
-    and mdi.name not like '%mz_catalog%' 
-    and mdi.worker = mdr.worker
-    group by mdi.name, dataflow_id, mdo.name
+mz_scheduling_elapsed mse
+  join mz_dataflow_operator_dataflows as mdo on mse.id = mdo.id and mse.worker = mdo.worker
+  left join mz_arrangement_sizes as mas on  mas.operator = mdo.id and mas.worker = mdo.worker
+  left join  mz_records_per_dataflow_operator mdr on mdr.id = mdo.id and mdr.worker = mdo.worker
+  left join  mz_records_per_dataflow mdi on mdr.dataflow_id = mdi.id and mdi.worker = mdr.worker 
+where
+mse.id != mdo.dataflow_id
+group by mdo.dataflow_name, mdo.dataflow_id, mdo.name
      ) B
-where A.dataflow_id = B.dataflow_id and A.dataflow_name = B.dataflow_name and A.operator = B.operator
+WHERE A.dataflow_id = B.dataflow_id 
+and A.dataflow_name = B.dataflow_name 
+and A.operator = B.operator
 )
-where pct_cpu_skew > 55 or pct_cpu_skew < 45
+-- where pct_cpu_skew > 55 or pct_cpu_skew < 45
 order by  dataflow_name, worker_thread_id, operator;
 
 

@@ -27,61 +27,27 @@ mse_worker as worker_thread_id,
 (sum(mse_elapsed_ns))/1000000 as cpu_time_operator_ms_per_worker,
 sum(mas_records) as total_records_operator_per_worker, 
 sum(mas_batches) total_batches_operator_per_worker, 
-mdr_dataflow_id as dataflow_id, 
-mdi_name as dataflow_name,
+mdo_dataflow_id as dataflow_id, 
+mdo_dataflow_name as dataflow_name,
 mdo_name as operator
--- * 
 from
-diag_mz_dataflow_stats 
---	 mz_scheduling_elapsed mse,
---     mz_dataflow_operators as mdo,  
---     mz_arrangement_sizes as mas, 
---     mz_records_per_dataflow_operator mdr,
---     mz_records_per_dataflow mdi 
--- where 
-    -- mas.records > 0 and
---    mse.id = mdo.id and
---    mse.worker = mdo.worker and
---    mas.operator = mdo.id and
---    mas.worker = mdo.worker
---    and mdr.id = mdo.id
---    and mdr.worker = mdo.worker 
---    and mdr.dataflow_id = mdi.id
---    and mdi.name not like '%mz_catalog%' 
---    and mdi.worker = mdr.worker
-    group by mse_worker, mdr_dataflow_id, mdi_name,  mdo_name
+diag_mz_dataflow_stats
+where mse_id != mdo_dataflow_id
+group by mse_worker, mdo_dataflow_id, mdo_dataflow_name,  mdo_name
     ) A,
 (select
 count(distinct mse_worker) as total_worker_threads, 
 (sum(mse_elapsed_ns))/1000000 as total_cpu_time_operator_ms,
 sum(mas_records) as total_records_per_operator, 
 sum(mas_batches) total_batches_per_operator, 
-mdr_dataflow_id as dataflow_id, 
-mdi_name as dataflow_name,
+mdo_dataflow_id as dataflow_id, 
+mdo_dataflow_name as dataflow_name,
 mdo_name as operator
 from
 diag_mz_dataflow_stats 
---	 mz_scheduling_elapsed mse,
---     mz_dataflow_operators as mdo,  
---     mz_arrangement_sizes as mas, 
---     mz_records_per_dataflow_operator mdr,
---     mz_records_per_dataflow mdi 
--- where 
-    -- mas.records > 0 and
---    mse.id = mdo.id and
---    mse.worker = mdo.worker and
---    mas.operator = mdo.id and
---    mas.worker = mdo.worker
---    and mdr.id = mdo.id
---    and mdr.worker = mdo.worker 
---    and mdr.dataflow_id = mdi.id
---    and mdi.name not like '%mz_catalog%' 
---    and mdi.worker = mdr.worker
-    group by mdi_name, mdr_dataflow_id, mdo_name
+where mse_id != mdo_dataflow_id
+group by mdo_dataflow_name, mdo_dataflow_id, mdo_name
      ) B
 where A.dataflow_id = B.dataflow_id and A.dataflow_name = B.dataflow_name and A.operator = B.operator
 );
--- where pct_cpu_skew > 55 or pct_cpu_skew < 45
--- order by  dataflow_name, worker_thread_id, operator;
-
 
